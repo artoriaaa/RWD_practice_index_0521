@@ -1,0 +1,45 @@
+font-awesome
+https://fontawesome.com/v4.7.0/icons/
+
+
+-----------features---------
+rocket
+<i class="fa fa-rocket" aria-hidden="true"></i>
+
+fire-extinguisher
+<i class="fa fa-fire-extinguisher" aria-hidden="true"></i>
+
+shield
+<i class="fa fa-shield fa-2x" ></i>
+
+
+
+
+
+-----------block---------
+user:
+<i class="fa fa-user fa-2x" ></i>
+
+
+------------contact---------
+home:
+<i class="fa fa-home" aria-hidden="true"></i>
+
+phone:
+<i class="fa fa-phone-square"></i>
+
+mail:
+<i class="fa fa-envelope"></i>
+
+
+
+--------------media---------
+twitter:
+
+<i class="fa fa-twitter"></i>
+
+fb
+<i class="fa fa-facebook"></i>
+
+in
+<i class="fa fa-instagram"></i>
