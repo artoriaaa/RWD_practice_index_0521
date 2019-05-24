@@ -20,6 +20,13 @@
    			color:#e94c3c;
 			line-height: 1.4em;
    		}
+   		hr{
+   			display: inline-block;
+			border: 1.5px solid #fff;
+			background: #fff;
+			vertical-align: middle;
+			width: 60%;
+		  }
 	}
 	
 	@media(max-width: 767px){
