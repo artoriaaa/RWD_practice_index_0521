@@ -1,0 +1,151 @@
+
+/*--------共通topbar------------------*/
+
+.topbar{
+	position: relative;
+	background: #000;
+	color: #fff;
+	height: 80px;
+	z-index: 10;
+}
+
+	
+	.topmenu{
+		float: right;
+		li{
+		  	display: inline-block;
+		  	a{
+			 	color: #fff;
+				display: block;
+				padding:0 20px;
+				line-height: 80px;
+				font-family: 'Oswald', sans-serif;
+				font-size: 0.9em;
+				&:hover{
+					background:#e74d3c;
+				}
+		  	}
+		}
+
+		
+	}
+	
+
+	
+	.nav-switch{
+		display: none;
+		position: absolute;
+		top: 0;
+		right:20px;
+		a{
+			display: block;
+	    	width: 80px;
+	    	height: 80px;
+	    	background: url(../images/hambur.svg) #000 no-repeat ;
+	    	background-size: 50%;
+	    	background-position: center 25px;
+		}
+
+	}
+	
+
+
+@media(max-width: 721px){
+	.topmenu{
+		float: none;
+		li{
+			a{
+				padding:0 32px;
+			}
+		}
+	}
+	
+}
+@media(max-width: 698px){
+	.topbar{
+		position: fixed;
+	}
+	.nav-switch{
+		display: block;
+	}
+
+		.trigger .topmenu{
+			max-height: 405px;
+		}
+
+		.topmenu{
+			position: absolute;
+			left:0;
+			right:0;
+			max-height: 0;
+			overflow: hidden;
+			transition: all 1s ease;
+			li{
+				display: block;
+				a{
+					text-align: center;
+					background: rgba(0,0,0,0.75);
+					border-top:1px dashed rgba(225,225,225,0.2);
+				}
+			}
+		}
+		
+}
+
+/*----------footer----------------*/	
+.footer{
+	background: #000;
+	padding: 80px 0 120px 0;
+}	
+.footer-box{
+	float: left;
+}
+.bottom-nav{
+	margin-bottom: 18px;
+	float: left;
+	li{
+		/*display: inline-block;*/
+		float: left;
+		a{
+			display: inline-block;
+			padding-right: 20px;
+		}
+	}
+	span{
+		color:#818685;
+		margin-right: 20px;
+	}
+}
+
+
+.media{
+	position: absolute;
+	top:-15px;
+	right: 0;
+	a{
+		color: #fff;
+	}
+	i{
+		margin-left: 13px;
+	}
+	.fa-facebook{
+		margin-left: 16px;
+	}
+}
+@media(max-width: 767px){
+	
+	.footer{
+		padding: 60px 0 120px 0;
+	}
+	.media{
+		width: 165px;
+		position: relative;
+		top: 0;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width: 590px){
+	.bottom-nav li{
+		float: none;
+	}
+}

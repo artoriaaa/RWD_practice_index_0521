@@ -1,0 +1,6 @@
+/*-------mixin 常用技巧-------*/
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}

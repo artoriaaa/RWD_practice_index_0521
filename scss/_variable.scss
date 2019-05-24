@@ -1,0 +1,37 @@
+/*-------顏色變數--------*/
+//base color
+	$vermilion:#e94c3c;
+	$black:#000;
+	$lightgray:#e7e7e7;
+	$white:#fff;
+
+	$text-color:#818685;
+
+//font-family
+	$title-font-family:"'Lato', sans-serif";
+	$base-font-family:"'Oswald', sans-serif";
+
+//width
+	$width: 960px;
+
+//background-color
+	.theme-color{
+		background : $vermilion;
+	}
+	.second-color{
+		background : $black;
+	} 
+	.lightgray{
+		background: $lightgray;
+	}
+
+//text color
+	.text-color{
+		color: $text-color;
+	}  
+	.text-orange{
+		color:$vermilion;
+	}
+	.text-white{
+		color: $white;
+	}

@@ -1,0 +1,70 @@
+/*--------base 全域共通設定---------*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+*{	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+		line-height: 80px;
+		display: inline-block;
+		font-size: 1.5em;
+	}
+h2{
+		max-width: 460px;
+		color: #fff;
+		text-transform:uppercase;
+		font-size: 1.9em;
+		line-height: 1.4em;
+	}	
+h3{
+		text-transform:uppercase;
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+
+	@media(max-width: 668px){
+		h3{
+			margin-bottom: 10px;
+		}
+	}
+h4{
+		font-weight: bold;
+		margin-bottom: 7px;
+	}
+p{
+	color:#818685;
+	line-height: 1.5em;
+}
+
+.fa{
+	margin:16px;
+	margin-left: 21px;
+}
+
+
+.max-width{
+	/*max-width: 100%;*/
+	width: 100%;
+}
+.fixed-width{
+	max-width: 960px;
+	margin:0 auto;
+	position: relative;
+	padding: 0 2%;
+}
+
+@media(max-width: 767px){
+	.fixed-width{
+		padding: 0 10%;
+	}
+}

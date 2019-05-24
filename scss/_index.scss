@@ -1,0 +1,398 @@
+/*----------HEADER------------------*/
+	.header{
+		background:#0666dd url(../images/header-road.png);
+		background-size: cover;
+	}
+
+/*----------BANNER------------------*/
+	.banner{
+		position: relative;
+		height: 560px;
+		.circle{
+			margin-bottom: 30px;
+		}
+
+	}	
+	.bannertext{
+		position: absolute;
+   		bottom: 58px;
+   		a{
+   			color:#e94c3c;
+			line-height: 1.4em;
+   		}
+	}
+	
+	@media(max-width: 767px){
+		.banner{
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+	}
+
+/*--------------CONTENT-----------------------*/
+/*----------FEATURES------------------*/
+
+	.features{
+			padding: 80px 0;
+			background: #e7e7e7;
+			.circle{
+				margin-right: 0;
+			}
+			li{
+				float: left;
+				width: 30%;
+			}
+
+			.fa-rocket{
+				margin-left: 16px;
+			}
+			.fa-shield{
+				margin-top: 18px;
+			}
+		}
+		.feature-middle{
+			margin:0 3.33333%;
+		}
+		.feature-box{
+			width:68%;
+			float: right;
+		}
+
+	@media(max-width: 767px){
+			.features li{
+				float: none;
+				width: 100%;
+				margin:0 auto 50px auto;
+			}
+			.feature-middle{
+				margin:0;
+			}
+			.feature-box{
+				width: 80%;
+			}
+		}
+		
+	@media(max-width: 590px){
+		.features{
+			padding: 40px 0;
+			.circle{
+				float: none;
+				margin: 0 auto 20px auto;
+			}
+		}
+		.feature-box{
+			float: none;
+			width: 100%;
+			h3{
+				text-align: center;
+			}
+		}
+		
+	}
+/*----------row1------------------*/
+	.row1{
+			padding:60px 2%;
+			position: relative;
+			h3{
+				width: 65.625%;
+				line-height: 1.3em;
+				display: inline-block;
+			}
+			li{
+				float: left;
+				width: 30%;
+				margin-right: 40px;
+			}
+			p{
+				margin-bottom: 30px;
+			}
+		}
+	.orange-span{
+		color:#e94c3c;
+		padding: 7px 0;
+		border-top:1px solid #e7e7e7;
+		border-bottom:1px solid #e7e7e7;
+		font-size: 1.2em;
+    	display: inline-block;
+    	width: 65.625%;
+ 		margin: 12px 0 24px 0;
+    	letter-spacing: -0.1px;
+	}
+	.big-circle-picture{
+		width: 30%;
+		border-radius: 50%;
+		background: #000;
+		position: absolute;
+		right: 0;
+		top:60px;
+		overflow: hidden;
+		img{
+			width: 100%;
+		}
+	}
+
+	@media(max-width: 767px){
+		.big-circle-picture{
+			width: 30%;
+			position: relative;
+			top: 0;
+			margin:0 auto;
+		}
+		.row1 {
+			padding: 60px 10%;
+			h3{
+				width: 88%;
+				line-height: 1.3em;
+				display:block;
+			}
+			li{
+				width: 44%;
+				margin-right: 0;
+			}
+			p{
+				margin-bottom: 30px;
+			}
+			.rightside{
+				float: right;
+			}
+		 }
+
+		.orange-span{
+			width: 96%;
+		}
+		
+		
+	}
+	@media(max-width: 668px){
+		.row1{
+
+			li{
+				width: 100%;
+				float: none;
+				padding-top:30px;
+				padding-bottom: 30px;
+				border-bottom: 2px dashed #e7e7e7;
+			  }
+
+			.rightside{
+				border:none;
+				padding-bottom: 0;
+			}
+
+		  }
+	
+	}
+/*----------orange-block------------------*/
+	.wide-block{
+		color: #fff;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		border-radius: 15px;
+		.circle{
+			margin-right: 0px;
+		}
+		.left{
+			width: 50%;
+		}
+		.right{
+			width: 46%;
+		}
+		 p{
+			color:#fff;
+		}
+		.submit{
+			float: right;
+		}
+	}
+
+	/*---float left or right----*/
+		.left{
+				float: left;
+			}
+		.right{
+			float: right;
+		}
+
+	.wide-block-box{
+			width: 78%;
+			float: left;
+			padding-left:5%;
+	}
+	.email{
+			width: 65%;
+			padding:0 20px;
+			border:none;
+			line-height: 40px;
+			border-radius: 40px;
+			float: left;
+		}
+
+	@media(max-width: 767px){
+		.wide-block{
+			.left{
+				width: 100%;
+				float: none;
+				padding-bottom: 30px;
+				border-bottom:1.5px dashed rgba(225,225,225,0.6);
+				margin-bottom: 30px;
+			}
+			.right{
+				width: 80%;
+				float: none;
+				margin-left: 65px;
+				padding-left: 5%	;
+			}	
+			.submit{
+				margin-left: 10px;
+				float: left;
+			}
+		}
+	}
+
+	@media(max-width: 668px){
+			.email{
+				float: none;
+				width: 90%;
+				margin-top: 10px;
+			}
+
+			.wide-block .submit{
+				float: none;
+				display: block;
+				margin-left: 0;
+				margin-top: 20px;
+			}
+			 
+	}
+
+	@media(max-width: 376px){
+		.wide-box{
+			.circle{
+				float: none;
+				margin-bottom: 20px;
+			}
+			.right{
+				margin-left: 0;
+				padding-left:0;
+			}
+		}
+		.wide-block-box{
+			width: 100%;
+			float: none;
+			padding-left: 0;
+		}
+		.email{
+			width: 100%;
+		}
+	}
+
+/*----------.row2------------------*/
+	.row2{
+		padding:60px 2%;
+		section{
+			float: left;
+			/*width: 370px;*/
+			width: 31.6%;
+		}
+		h3{
+			margin-bottom: 40px;
+		}
+		.middle{
+			margin-left: 2.564%;
+			margin-right: 2.564%;
+		}
+		.circle img{
+			width: 100%;
+		}
+	}
+	@media(max-width: 767px){
+		.row2{
+			section{
+				float: none;
+				width: 80%;
+				margin: 0 auto;
+				margin-bottom: 30px;
+			}
+			.middle{
+				margin: 0 auto 30px auto;
+			}
+		}
+	}
+
+	/*----------section1 img-list-----------------*/
+		.img-list{
+			li{
+				padding:30px 0;
+				border-top: 1px solid #e7e7e7;
+				border-bottom: 1px solid #e7e7e7;
+			}
+			p{
+				height: 50px;
+				overflow: hidden;
+			}
+		}
+	/*----------section2 form-----------------*/
+		.row2 .form{
+			background: #e7e7e7;
+			/*height: 395px;*/
+			padding: 30px 30px 10px 30px;
+		}
+		.form{
+			input{
+				padding:0 20px;
+				border:none;
+				line-height: 40px;
+				border-radius: 40px;
+				margin-bottom: 20px;
+				width: 100%;
+			}
+			p{
+				margin-bottom: 20px;
+			}
+			.submit{
+				width: 100px;
+			}
+			textarea{
+				margin-bottom: 20px;
+				height: 80px;
+				padding:10px 20px;
+				border-radius: 10px;
+				border:none;
+				width: 100%;
+			}
+		}
+	/*----------section3 contact----------------*/
+		.box{
+			float: left;
+			width: 28px;
+			height: 28px;
+			/*border:1px solid #f00000;*/
+			
+		}
+		.contact{
+			li{
+				padding:30px 0;
+				border-top: 1px solid #e7e7e7;
+				border-bottom: 1px solid #e7e7e7;
+			}
+			 i{
+				margin: 0;
+			}
+			.fa-home{
+				margin-left: -4px;
+			}
+			.fa-phone-square{
+				font-size: 1.65em;
+			}
+			.fa-envelope{
+				font-size: 1.5em;
+			}
+		}
+		.contact-box{
+			width: 84%;
+			float: right;
+		}
+		
+		
+	
+	
