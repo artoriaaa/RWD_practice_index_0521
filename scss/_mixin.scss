@@ -1,6 +1,19 @@
 /*-------mixin 常用技巧-------*/
-.clearfix::after{
+
+@mixin clearfix{
 	content: "";
 	display: block;
 	clear: both;
 }
+
+@mixin hide-text{
+	overflow: hidden;
+	text-indent:110%;
+	white-space: nowrap;
+}
+
+
+.clearfix::after{
+	@include clearfix;
+}
+
